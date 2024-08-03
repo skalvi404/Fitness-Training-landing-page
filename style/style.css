@@ -10,3 +10,22 @@
 
 
 /* SHARED STYLE START */
+#hero-section{
+    max-width: 133%;
+    height:715px;
+    border: 3px solid red;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 57px 190px 0px 190px;
+    
+}
+nav ul{
+    display: flex;
+    gap:47px;
+    list-style: none;
+}
+.list-items-links{
+    text-decoration: none;
+}
