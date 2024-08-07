@@ -65,3 +65,17 @@ nav ul span{
         rgba(119, 119, 119, 0) 100%),
       linear-gradient(360deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);;
 }
+
+/* BANNER SECTION DESING START*/
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+    border: 2px solid red;
+}
+.banner-image{
+    border:2px solid red;
+    
+}
+/* BANNER SECTION DESING START END */
