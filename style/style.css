@@ -6,7 +6,9 @@
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
 }
-
+main>section{
+    margin-bottom: 90px;
+}
 /* SHARED STYLE START START */
 .color-red-text {
     color: rgb(230, 83, 60);
@@ -20,7 +22,22 @@
     width: 520px;
     height: 48px;
 }
-
+.banner-button-red{
+position: static;
+width: 224px;
+height: 54px;
+padding: 16px 40px 16px 40px;
+border-radius: 42px;
+color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0px;
+text-align: left;
+border: none;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+}
 /* SHARED STYLE END */
 #hero-section {
     max-width: 133%;
@@ -109,36 +126,79 @@ nav ul span {
     margin-bottom: 30px;
 
 }
+.banner-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.5px;
+margin:28px auto;
+}
+
 
 .banner-image {
     border: 2px solid red;
-    margin-right: 20%;
+    margin-right: 200px;
     margin-top: 30px;
     width: 349px;
     height: 580px;
     left: 877px;
     top: 135px;
 
+
 }
 
 .banner-image img {
     position: absolute;
+    width: auto;
 }
 
 #badge1 {
+    display: flex;
+    gap: 8px;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
-    position: absolute;
+    position:-webkit-sticky;
     width: 193px;
     height: 98px;
-    left: 1107px;
-    top: 260px;
-    text-align: center;
-    margin-top: 300px;
-    
+    margin-top: 414px;
+    margin-left:-100px;   
+}
+.ellipse{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+background: rgb(230, 83, 60);
+
 }
 
-#badge2 {}
+
+#badge2 {
+  
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    position:-webkit-sticky;
+    width: 193px;
+    height: 98px;
+    top: 260px;
+    text-align: center;
+    margin-top: -390px; 
+    margin-left: 215px;
+
+}
+
+.badge2-container{
+    display: flex;
+    flex-direction:column;
+    text-align: left;
+    margin: 20px;   
+}
+
+
 
 /* BANNER SECTION DESING START END */
