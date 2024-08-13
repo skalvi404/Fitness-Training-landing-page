@@ -362,7 +362,41 @@ height: 120px;
         margin-left: 213px;
 
     }
+/* HERO SECTION DESIGN END */
+
+/* SECTION-2 DESIGN  START */
+    .model{
+        display: flex;
+        flex-wrap: wrap;
+     }
+
+     .block-1-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap:px;
+    }
+      
+     .block-1-content h1{
+        font-size: 2rem;
+        font-weight: 900;
+        line-height: 120%;
+        letter-spacing: 0%;
+        
+        }
+        .block-1-content p{
+            width: 318px;
+            height: 124px;
+        }
+
+
+/* SECTION-2 DESING START END */
 }
+
+
+
+
 
 /* MOBILE RESPONSIVE END */
 /* RESPONSIVE DESING END */
