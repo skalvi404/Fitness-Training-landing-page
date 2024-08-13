@@ -8,10 +8,10 @@
 
 }
 
-main>section {
+/* main>section {
     margin-bottom: 90px;
 
-}
+} */
 
 /* SHARED STYLE START START */
 .color-red-text {
@@ -22,6 +22,12 @@ main>section {
     background: rgb(230, 83, 60);
 }
 
+.bg-dark{
+   background:rgb(0, 0, 0); 
+}
+.text-white{
+    color:rgb(255, 255, 255);
+}
 .banner-content-sizing {
     width: 520px;
     height: 48px;
@@ -218,6 +224,27 @@ nav ul span {
     margin: 20px;
 }
 
+/* BLOCK-1-DESIGN END */
+#block-1{
+    margin: 100px 200px;
+}
+.model{
+   display: flex;
+   flex-direction: row;
+   gap: 40px;
+   justify-content: center;
+}
+.model-image img{
+width: 272px;
+height: 180px;
+border-radius:50%;
+width: 100%;
+}
+.model-content{
+width: 231px;
+height: 64px;
+}
+/* BLOCK-1-DESIGN START END */
 
 
 /* BANNER SECTION DESING START END */
@@ -301,8 +328,6 @@ nav ul span {
         margin-left: 213px;
 
     }
-
-
 }
 
 /* MOBILE RESPONSIVE END */
