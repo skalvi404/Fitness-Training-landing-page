@@ -333,6 +333,89 @@ margin: 88px auto;
 
 
 
+/* SECTION-3-BLOCK-2-DESING START  */
+.bmi-block-2{
+    background-color: #222;
+    color: #fff; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    padding: 20px;
+    background-color: #333;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+ .bmi-calculator {
+    width: 45%;
+    padding: 10px auto;
+}
+.bmi-chart{
+ text-align: center;
+   
+}
+
+
+
+.bmi-chart h2, .bmi-calculator h2 {
+    margin-bottom: 20px;
+}
+
+.bmi-chart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bmi-chart table, th, td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    text-align: left;
+}
+.bmi-chart th{
+   color:rgb(255, 255, 255);
+   font-size: 16px;
+   font-weight: 500;
+}
+
+.bmi-chart td {
+    background-color: #333;
+}
+
+.bmi-calculator form {
+    display: flex;
+    flex-direction: column;
+}
+
+.bmi-calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.bmi-calculator input, .bmi-calculator select{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #444;
+    color: #fff;
+    flex: 1;
+}
+
+.bmi-calculator select {
+    flex: 1;
+}
+
+      
+/* SECTION-3-BLOCK-2-DESING END  */
 
 
 
@@ -532,8 +615,14 @@ letter-spacing: 0%;
 
 
 
+/* SECTION-3-BLOCK-2-DESING START  */
 
 
+
+
+      
+/* SECTION-3-BLOCK-2-DESING END  */
+    
 
 
 
