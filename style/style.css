@@ -859,7 +859,68 @@ letter-spacing: 0%;
 
 
 /* Footer Design start */
+footer{
+    margin: 10px;
+    width:auto;
+    height: 986px;
+    background: rgba(255, 255, 255, 0.1);
+    color:#fff;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 353px;
+    height: 518px;
 
+
+}
+.footer-block-1{
+    width: 317px;
+    height: 200px;
+    margin: 0px;
+   
+   
+
+}
+.footer-block-1 h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.footer-block-1 p{
+    font-size:small;
+}
+.block-2-block-3{
+    display: flex;
+    flex-direction:column;
+    gap: 224px;
+    justify-content: space-around;
+
+}
+
+.footer-block-2 ul, .footer-block-3 ul{
+    list-style: none;
+    width: 181px;
+    height: 38px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-block-2 ul a,.footer-block-3 ul a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.5);
+}
+.horizontal{
+    width: 353px;
+    margin-top: 380px;
+
+}
+.deveolop-by p{
+    margin:40px auto;
+    text-align: center;
+    font-size: x-small;
+}
 
 /* FOOTER DESING END */
 
