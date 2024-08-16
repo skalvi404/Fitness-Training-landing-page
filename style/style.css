@@ -484,6 +484,60 @@ margin-bottom: 10px;
     bottom: 1.25rem;
     left: 1.25rem;
 }
+/* end */
+
+/* EXTRA DESING START */
+.extra-container {
+    margin: 100px 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.benefits-text {
+    max-width: 50%;
+}
+
+.benefits-text h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.benefits-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.benefits-list li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #FF4C4C;
+}
+
+.benefits-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* EXTRA DESING END */
+
+
+
 /* Footer Design start */
 footer{
     width:auto;
@@ -544,7 +598,28 @@ letter-spacing: 0%
     text-align: center;
     font-size: x-small;
 }
+
 /* FOOTER DESING END */
+
+
+
+
+
+
+/* test */
+/* test */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* SECTION-4-DESING END */
 
@@ -857,6 +932,71 @@ letter-spacing: 0%;
 
 /* SECTION-4-DESING END */
 
+
+/* EXTRA SECTION START */
+.benefits-section{
+    margin: 10px auto;
+    width: auto;
+}
+.extra-container {
+    margin: 50px -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+} 
+
+{
+    width: 353px;
+    height: 1000px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: white;
+  
+}
+
+.benefits-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefits-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.benefits-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.benefits-list {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits-list li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  
+  
+}
+
+.benefits-list li::before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #FF4C4C;
+}
+
+.benefits-image img {
+    max-width: 80%;
+}
+/* EXTRA SECTION END */
 
 /* Footer Design start */
 footer{
